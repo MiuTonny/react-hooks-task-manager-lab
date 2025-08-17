@@ -133,3 +133,62 @@ Ensure the application:
 - Submits new task with `useId`
 - Marks tasks as complete.
 - Filters tasks shown on the page by a search input.
+
+
+---
+
+# 💼 **Option 2 — Professional Repo Style (for portfolio/GitHub)**
+
+```md
+# Task Manager – React Hooks Demo
+
+A minimal Task Manager built with React to demonstrate **standard hooks**.  
+Users can add tasks, mark them complete, and filter them live.
+
+---
+
+## ✨ Features
+
+- Add tasks with accessible form labels (`useId`)
+- Global task state (`useContext`)
+- Toggle complete/undo
+- Search tasks with autofocus (`useRef`)
+- Fully tested with Vitest + React Testing Library
+
+---
+
+## 🛠 Tech Stack
+
+- React + Vite
+- json-server (mock backend)
+- Vitest + React Testing Library
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# install
+npm install
+
+# start backend
+npm run server  # http://localhost:6001/tasks
+
+# start frontend
+npm run dev
+
+# run tests
+npm run test
+
+
+Project Structure
+
+src/
+  components/
+    App.jsx
+    TaskForm.jsx
+    SearchBar.jsx
+    TaskList.jsx
+  context/
+    TaskContext.jsx
+  main.jsx
